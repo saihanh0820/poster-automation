@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Industrial design poster project brief",
+  "type": "object",
+  "required": ["projectId", "title", "subtitle", "theme", "assets", "board1", "board2", "board3"],
+  "properties": {
+    "projectId": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "titleCn": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "theme": {
+      "type": "object",
+      "required": ["background", "ink", "primary", "accent"],
+      "properties": {
+        "background": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "ink": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "primary": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "accent": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "required": ["master", "hero", "structure", "application"],
+      "properties": {
+        "master": { "type": "string" },
+        "hero": { "type": "string" },
+        "structure": { "type": "string" },
+        "application": { "type": "string" }
+      }
+    }
+  }
+}

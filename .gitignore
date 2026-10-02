@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+Outputs/
+output/
+outputs/
+*.psd
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.zip
+*.log

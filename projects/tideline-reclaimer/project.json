@@ -1,0 +1,46 @@
+{
+  "projectId": "tideline-reclaimer",
+  "title": "TIDELINE RECLAIMER",
+  "titleCn": "AUTONOMOUS COASTAL RECOVERY PLATFORM",
+  "subtitle": "SPECULATIVE CIVIC MARINE INFRASTRUCTURE",
+  "theme": { "background": "#041014", "ink": "#E6F4F3", "primary": "#26C7DA", "accent": "#F08A3C", "muted": "#819BA1" },
+  "assets": {
+    "master": "../../../Outputs/04_Master/tideline-reclaimer/tideline-reclaimer-master.png",
+    "hero": "../../../Outputs/05_Asset_Renders/tideline-reclaimer/tideline-reclaimer-hero.png",
+    "structure": "../../../Outputs/05_Asset_Renders/tideline-reclaimer/tideline-reclaimer-structure.png",
+    "application": "../../../Outputs/05_Asset_Renders/tideline-reclaimer/tideline-reclaimer-application.png"
+  },
+  "board1": {
+    "kickerCn": "COASTAL INSIGHTS", "kickerEn": "CIVIC WATERFRONT SYSTEM",
+    "lead": "A speculative autonomous platform that supports calmer, more visible debris recovery in protected harbor infrastructure.",
+    "cards": [
+      { "title": "Gentle intake", "body": "A central mesh channel gives the recovery process one clear, readable direction.", "icon": "O" },
+      { "title": "Visible service", "body": "Four removable cartridges make collection and unloading legible within a civic workflow.", "icon": "D" },
+      { "title": "Harbor fit", "body": "Compact catamaran geometry keeps the system visually calm around public waterfront space.", "icon": "A" }
+    ],
+    "insights": ["Waterfront maintenance should remain understandable to the public.", "Marine equipment needs robust surfaces without visual noise.", "Product, dock, and workflow should share one service language."]
+  },
+  "board2": {
+    "kickerCn": "MARINE ARCHITECTURE", "kickerEn": "INTAKE, STORAGE & SERVICE",
+    "modules": [
+      { "code": "01", "title": "Central mesh intake", "body": "A protected channel concentrates the visible recovery path in the center of the platform." },
+      { "code": "02", "title": "Collection cartridge array", "body": "Four translucent modules communicate removable storage and a clear service rhythm." },
+      { "code": "03", "title": "Twin side propulsion pods", "body": "Compact side pods maintain a balanced, low-profile marine stance." }
+    ],
+    "cmf": [
+      { "name": "MARINE CERAMIC", "hex": "#E6F0F0" }, { "name": "GRAPHITE FLOAT", "hex": "#263237" },
+      { "name": "OCEAN INTAKE", "hex": "#26C7DA" }, { "name": "SERVICE ORANGE", "hex": "#F08A3C" }
+    ]
+  },
+  "board3": {
+    "kickerCn": "HARBOR SERVICE FLOW", "kickerEn": "DEPLOYMENT & RECOVERY",
+    "crop": "center",
+    "workflow": [
+      { "step": "01", "title": "Deploy", "body": "Leave service dock" }, { "step": "02", "title": "Collect", "body": "Guide debris intake" },
+      { "step": "03", "title": "Sort", "body": "Separate modules" }, { "step": "04", "title": "Unload", "body": "Return to dock" },
+      { "step": "05", "title": "Reset", "body": "Prepare next route" }
+    ],
+    "metrics": [ { "label": "Waterfront visibility", "value": 86 }, { "label": "Service clarity", "value": 78 }, { "label": "System calm", "value": 82 } ],
+    "notes": ["All workflow and data elements are conceptual communication devices.", "No environmental or operational performance is asserted by this concept."]
+  }
+}

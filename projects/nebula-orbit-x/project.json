@@ -1,0 +1,69 @@
+﻿{
+  "projectId": "nebula-orbit-x",
+  "title": "NEBULA ORBIT-X",
+  "titleCn": "ORBITAL SURGICAL COLLABORATION PLATFORM",
+  "subtitle": "SPECULATIVE SURGICAL COLLABORATION PLATFORM",
+  "theme": {
+    "background": "#05090C",
+    "ink": "#E9F4F8",
+    "primary": "#36BFFC",
+    "accent": "#D6A72A",
+    "muted": "#80919D"
+  },
+  "assets": {
+    "master": "../../../Outputs/04_Master/nebula-orbit-x/nebula-orbit-x-master.png",
+    "hero": "../../../Outputs/05_Asset_Renders/nebula-orbit-x/nebula-orbit-x-hero.png",
+    "structure": "../../../Outputs/05_Asset_Renders/nebula-orbit-x/nebula-orbit-x-structure.png",
+    "application": "../../../Outputs/05_Asset_Renders/nebula-orbit-x/nebula-orbit-x-application.png"
+  },
+  "board1": {
+    "kickerCn": "DESIGN INSIGHTS",
+    "kickerEn": "CONTEXT & DESIGN INTENT",
+    "lead": "A speculative collaboration platform that organizes sterile space, precision tools, and operator awareness into one orbital system.",
+    "cards": [
+      { "title": "Spatial choreography", "body": "Instrument paths, work zones, and lines of sight are organized into a readable orbital relationship.", "icon": "O" },
+      { "title": "Precision intervention", "body": "Independent instrument pods take distinct minimally invasive tasks while retaining visible boundaries.", "icon": "D" },
+      { "title": "Human-led control", "body": "The operator retains a clear place for supervision, decisions, and collaboration.", "icon": "A" }
+    ],
+    "insights": [
+      "Dense equipment environments need clear spatial zoning and visual order.",
+      "The product should combine clinical calm, reliability, and maintainable module relationships.",
+      "Scene, product, and information layers must share one CMF and lighting language."
+    ]
+  },
+  "board2": {
+    "kickerCn": "SYSTEM ARCHITECTURE",
+    "kickerEn": "ORBITAL ARCHITECTURE & CMF",
+    "modules": [
+      { "code": "01", "title": "Asymmetric orbital spine", "body": "The structural movement path forms the distinctive continuous arc of the system." },
+      { "code": "02", "title": "Precision pod array", "body": "Three oval pods deploy around the work zone while holding a stable product identity." },
+      { "code": "03", "title": "Low hexagonal base", "body": "A layered low-center base grounds the system within a future operating environment." }
+    ],
+    "cmf": [
+      { "name": "CERAMIC WHITE", "hex": "#E7ECEF" },
+      { "name": "SATIN TITANIUM", "hex": "#84939C" },
+      { "name": "OBSIDIAN FLEX", "hex": "#11161A" },
+      { "name": "ION BLUE", "hex": "#36BFFC" }
+    ]
+  },
+  "board3": {
+    "kickerCn": "APPLICATION FLOW",
+    "kickerEn": "APPLICATION & COLLABORATION FLOW",
+    "workflow": [
+      { "step": "01", "title": "Prepare", "body": "System and room ready" },
+      { "step": "02", "title": "Align", "body": "Orbital zone calibration" },
+      { "step": "03", "title": "Configure", "body": "Tool pod allocation" },
+      { "step": "04", "title": "Collaborate", "body": "Operator-led action" },
+      { "step": "05", "title": "Recover", "body": "Module reset and review" }
+    ],
+    "metrics": [
+      { "label": "Spatial order", "value": 82 },
+      { "label": "Module clarity", "value": 76 },
+      { "label": "Collaboration visibility", "value": 88 }
+    ],
+    "notes": [
+      "Workflow information is a concept-presentation device, not a real clinical workflow.",
+      "All data bars are layout demonstrations, not performance, certification, or clinical claims."
+    ]
+  }
+}

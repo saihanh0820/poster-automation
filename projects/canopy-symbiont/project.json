@@ -1,0 +1,46 @@
+{
+  "projectId": "canopy-symbiont",
+  "title": "CANOPY SYMBIONT",
+  "titleCn": "ORCHARD CARE ROBOTIC PLATFORM",
+  "subtitle": "SPECULATIVE PRECISION AGRICULTURAL INFRASTRUCTURE",
+  "theme": { "background": "#08100A", "ink": "#EDF5E8", "primary": "#75D46B", "accent": "#E0A438", "muted": "#8C9A88" },
+  "assets": {
+    "master": "../../../Outputs/04_Master/canopy-symbiont/canopy-symbiont-master.png",
+    "hero": "../../../Outputs/05_Asset_Renders/canopy-symbiont/canopy-symbiont-hero.png",
+    "structure": "../../../Outputs/05_Asset_Renders/canopy-symbiont/canopy-symbiont-structure.png",
+    "application": "../../../Outputs/05_Asset_Renders/canopy-symbiont/canopy-symbiont-application.png"
+  },
+  "board1": {
+    "kickerCn": "ORCHARD INSIGHTS", "kickerEn": "GENTLE CROP CARE SYSTEM",
+    "lead": "A speculative electric field robot that makes observation, branch-level tending, and energy service readable in one orchard rhythm.",
+    "cards": [
+      { "title": "Canopy awareness", "body": "A panoramic halo creates a clear visual relationship to the tree canopy.", "icon": "O" },
+      { "title": "Gentle reach", "body": "Two soft-tool arms focus attention on careful branch-level interaction.", "icon": "D" },
+      { "title": "Field endurance", "body": "Rear power drawers make service and electrical exchange visible as part of the system.", "icon": "A" }
+    ],
+    "insights": ["Agricultural automation should remain legible to farm workers.", "Outdoor equipment needs durable geometry and restrained visual complexity.", "Field context should reinforce the product's low-impact care narrative."]
+  },
+  "board2": {
+    "kickerCn": "FIELD ARCHITECTURE", "kickerEn": "SENSING, TENDING & POWER",
+    "modules": [
+      { "code": "01", "title": "Panoramic sensor halo", "body": "An upper sensing ring gives the product a clear observation identity." },
+      { "code": "02", "title": "Soft-tool arm pair", "body": "Two articulated arms communicate controlled reach without imitating human labor." },
+      { "code": "03", "title": "Rear power drawers", "body": "Serviceable energy modules support a readable field-maintenance scenario." }
+    ],
+    "cmf": [
+      { "name": "WARM CERAMIC", "hex": "#E9EFE6" }, { "name": "SOIL GRAY", "hex": "#3C433D" },
+      { "name": "LEAF SENSOR", "hex": "#75D46B" }, { "name": "FIELD AMBER", "hex": "#E0A438" }
+    ]
+  },
+  "board3": {
+    "kickerCn": "ORCHARD SERVICE FLOW", "kickerEn": "SURVEY, TEND & RECHARGE",
+    "crop": "center",
+    "workflow": [
+      { "step": "01", "title": "Survey", "body": "Read row conditions" }, { "step": "02", "title": "Approach", "body": "Align to canopy" },
+      { "step": "03", "title": "Tend", "body": "Gentle arm action" }, { "step": "04", "title": "Review", "body": "Return to field lane" },
+      { "step": "05", "title": "Recharge", "body": "Service power drawers" }
+    ],
+    "metrics": [ { "label": "Canopy awareness", "value": 85 }, { "label": "Serviceability", "value": 79 }, { "label": "Field readability", "value": 88 } ],
+    "notes": ["All workflow and data elements are conceptual communication devices.", "No agricultural yield, crop-health, or operational performance is asserted."]
+  }
+}

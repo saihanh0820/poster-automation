@@ -1,0 +1,46 @@
+{
+  "projectId": "strata-forge",
+  "title": "STRATA FORGE",
+  "titleCn": "SUBTERRANEAN REPAIR ROBOTIC PLATFORM",
+  "subtitle": "SPECULATIVE RESILIENT URBAN INFRASTRUCTURE",
+  "theme": { "background": "#0A090E", "ink": "#F0ECF5", "primary": "#A578FF", "accent": "#C9953B", "muted": "#96909D" },
+  "assets": {
+    "master": "../../../Outputs/04_Master/strata-forge/strata-forge-master.png",
+    "hero": "../../../Outputs/05_Asset_Renders/strata-forge/strata-forge-hero.png",
+    "structure": "../../../Outputs/05_Asset_Renders/strata-forge/strata-forge-structure.png",
+    "application": "../../../Outputs/05_Asset_Renders/strata-forge/strata-forge-application.png"
+  },
+  "board1": {
+    "kickerCn": "INFRASTRUCTURE INSIGHTS", "kickerEn": "SUBTERRANEAN SERVICE SYSTEM",
+    "lead": "A speculative tunnel-service robot that organizes inspection, tool access, and maintenance visibility around one rotating structural ring.",
+    "cards": [
+      { "title": "Ring access", "body": "A rotating central ring makes the service tool relationship visually explicit.", "icon": "O" },
+      { "title": "Tracked stability", "body": "A low track base creates a grounded, protected stance inside tunnel geometry.", "icon": "D" },
+      { "title": "Survey continuity", "body": "A detachable sensor module separates observation from direct service action.", "icon": "A" }
+    ],
+    "insights": ["Maintenance technology should clarify infrastructure conditions, not hide them.", "Underground hardware needs robust protection with precise service access.", "Lighting, geometry, and information layers should support low-light legibility."]
+  },
+  "board2": {
+    "kickerCn": "REPAIR ARCHITECTURE", "kickerEn": "RING, CABLE & SURVEY SYSTEM",
+    "modules": [
+      { "code": "01", "title": "Rotating ring tool pod", "body": "Three compact pods are distributed across one central structural tool ring." },
+      { "code": "02", "title": "Cable-management spine", "body": "The rear spine organizes protected utility routing as a readable service layer." },
+      { "code": "03", "title": "Detachable survey module", "body": "A separate survey element distinguishes observation from physical maintenance." }
+    ],
+    "cmf": [
+      { "name": "MINERAL SHELL", "hex": "#B5B5BB" }, { "name": "TRACK BLACK", "hex": "#18171C" },
+      { "name": "ION VIOLET", "hex": "#A578FF" }, { "name": "MAINTENANCE OCHRE", "hex": "#C9953B" }
+    ]
+  },
+  "board3": {
+    "kickerCn": "TUNNEL SERVICE FLOW", "kickerEn": "SCAN, REPAIR & VERIFY",
+    "crop": "top",
+    "workflow": [
+      { "step": "01", "title": "Scan", "body": "Survey tunnel zone" }, { "step": "02", "title": "Align", "body": "Position structural ring" },
+      { "step": "03", "title": "Repair", "body": "Deploy tool pods" }, { "step": "04", "title": "Verify", "body": "Review work area" },
+      { "step": "05", "title": "Recover", "body": "Return to service bay" }
+    ],
+    "metrics": [ { "label": "Low-light legibility", "value": 84 }, { "label": "Service access", "value": 81 }, { "label": "System clarity", "value": 86 } ],
+    "notes": ["All workflow and data elements are conceptual communication devices.", "No engineering, safety, or operational performance is asserted by this concept."]
+  }
+}
